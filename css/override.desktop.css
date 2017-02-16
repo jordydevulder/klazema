@@ -1,0 +1,115 @@
+@media(min-width: 991px){
+  ul.navbar-nav{
+    border-top: 0px;
+  }
+
+  .navbar .container{
+    width: 1140px;
+  }
+
+  ul.navbar-nav li{
+    background-color: #FFF6EC;
+    border: 0px;
+  }
+
+  ul.navbar-nav li.active{
+    background-color: #FFF6EC;
+    color: #2D9EEE;
+  }
+
+  ul.navbar-nav li.active a{
+    color: #2D9EEE !important;
+  }
+
+  img.logo{
+    margin-left: 0px;
+  }
+
+  .navbar-brand{
+    max-width: 200px !important;
+  }
+  ul.navbar-nav li.nav-item {
+    padding-left:0;
+      
+  }
+
+    ul.navbar-nav li.dropdown a.dropdown-toggle{
+        padding-left: 8px;
+    }
+    .dropdown-menu {
+        border-top: 42px solid #fff6ec;
+        margin-top:-5px;
+        
+        
+    }
+    
+    .dropdown-menu a:first-child{
+        border-top: 2px solid #2d9eee;
+    }
+    
+    .dropdown-menu a:last-child {
+        border-bottom: 1px solid #d1d1d1;
+    }
+    .dropdown-menu a {
+        background-color:white !important;
+
+    }
+    
+    a.nav-link:hover {
+        background-color:#2D9EEE;
+        border-radius:20px;
+        color:white !important;
+        
+    }
+    a.nav-link {
+        padding-top:2px;
+        padding-bottom: 2px;
+        margin-top:5px;
+        margin-left:10px !important;
+    }
+
+    .contact-btn, .envelope-btn {
+        display:none;
+    }
+    
+    img.flaggy {
+        width:40px;
+        margin:0 auto;
+        display:block;
+    }
+    
+    .contact-btn {
+        float:right;
+        position:absolute;
+    }
+    
+    li.dropdown:hover > .dropdown-menu,  .dropdown-menu:hover > .dropdown-menu{
+      display: block;
+    }
+    
+    a.active {
+        color:white !important;
+    }
+    
+    ul.navbar-nav li.active {
+        background-color: #FFF6EC !important;
+
+    }
+    
+    ul.navbar-nav li.active a {
+        color:black !important;
+    }
+    
+    ul.navbar-nav li.active a:hover {
+        color:white !important;
+    }
+    
+    .dropdown a.nav-link {
+        margin-left:0px;
+    }
+    
+    i.downer {
+        display:none;
+    }
+    
+}

@@ -1,0 +1,145 @@
+body{
+  padding-top: 130px;
+}
+
+img.logo{
+  max-width: 200px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+nav.navbar{
+  background-color: #fff6ec !important;
+}
+
+a.navbar-brand{
+  width: 100%;
+}
+
+.btn-outline-klazema{
+  border-color: #FE9A22;
+  color: #FE9A22;
+}
+
+.nav-item a{
+  color: black !important;
+}
+
+ul.navbar-nav{
+  background-color: white;
+  border-top: 2px solid #fe9a22;
+}
+
+ul.navbar-nav li{
+  border-bottom: 1px solid #CECECE;
+  padding-left: 25px;
+}
+
+ul.navbar-nav li.active{
+  background-color: #2d9eee !important;
+}
+
+ul.navbar-nav li.active a{
+  color: white !important;
+}
+
+.dropdown a.nav-link{
+    float:left;
+    margin-left:25px;
+}
+
+.dropdown-toggle::after{
+  content: none !important;
+}
+
+
+.navbar{
+  padding: 0px;
+  padding-top: 10px;
+}
+
+.dropdown-menu{
+  border: 0px;
+  padding: 0px;
+}
+
+.dropdown-menu a{
+  background-color: #edfbff !important;
+  border-bottom: 1px solid #CECECE;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.dropdown-menu a:last-child{
+  border: 0px;
+}
+
+.navbar-inverse .navbar-toggler{
+  color: black !important;
+  top: 25px;
+  left: 25px;
+  position: absolute;
+  z-index: 999;
+}
+
+.navbar-inverse .navbar-toggler i{
+  font-size: 30px;
+}
+
+.navbar .container{
+  width: 100%;
+}
+
+.clearboth{clear:both;}
+
+.img-fluid{
+  width: 100%;
+  height: 400px;
+  background-color: 
+  background-repeat: no-repeat !important;
+  background-size: 2000px 400px !important;
+  background-position: center !important;
+}
+
+.company-container{
+    width: 100%;
+}
+
+ul.navbar-nav li.dropdown{
+    padding-left: 0px;
+}
+
+ul.navbar-nav li.dropdown a.dropdown-toggle{
+    padding-left: 25px;
+}
+
+.contact-btn, .envelope-btn {
+    display:block;
+}
+.navbar-brand {
+    width:150px;
+}
+
+a.navbar-brand img {
+    margin-top:0;
+    margin-bottom:0;
+}
+
+img.flaggy {
+        width:60px;
+        margin:0 auto;
+        display:block;
+    }
+.envelope-btn{
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    border: 1px solid #FE9A22;
+    padding: 5px 10px;
+    background-color: #fff6ec;
+    color: #FE9A22;
+    font-size: 20px;
+    top: 15px;
+}

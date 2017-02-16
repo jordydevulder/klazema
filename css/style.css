@@ -1,0 +1,846 @@
+@font-face {
+    font-family: montserrat-bold;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: montserrat-regular;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: opensans-bold;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: opensans-extrabold;
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: opensans-italic;
+    src: url(../fonts/OpenSans-Italic.ttf);
+}
+@font-face {
+    font-family: opensans-light;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: opensans-regular;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: opensans-semibold;
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: fontawesome;
+    src: url(../fonts/fontawesome-webfont.ttf);
+}
+
+
+.mail-btn {
+    font-family: fontawesome;
+    font-size:25px;
+    display: none;
+}
+.closer.show {
+    display:none;
+    
+}
+.closer {
+    font-family: fontawesome;
+    display:none;
+    font-size:34px;
+    overflow: hidden;
+}
+.container {
+    position: relative;
+    padding-bottom:20px;
+
+}
+
+
+a.cta {
+    border: 2px solid #fe9a22;
+    padding: 8px 20px;
+    color:  #fe9a22;
+    border-radius:12px;
+    margin-left:10px;
+    font-size:15px;
+    line-height: 2;
+    float:right;
+    margin-top:22px;
+    font-family: montserrat-bold;
+}
+
+
+
+a.sendmail{
+
+    width: 250px;
+    border: 2px solid white;
+    padding: 10px 20px;
+    color:  white;
+    border-radius: 5px;
+    float: right;
+    text-align: center;
+    margin-top: 50px; 
+    font-size: 20px; 
+    font-family: montserrat-bold;
+    text-decoration: none;
+}
+a.sendmail:hover {
+    color: #2da2e0;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.contact-me{
+    height: 150px;
+    background: #2da2e0;
+    width: 100%;
+
+}
+.contact-me h3{
+    color: white;
+    float: left;
+    margin-top: 55px;
+}
+
+.infocard img {
+    width:100%;
+}
+
+.aboutme{
+    padding-bottom: 25px;
+}
+.aboutme p{
+     padding: 8px;
+    padding-left:0;
+}
+.link p{
+     padding-top: 40px;   
+}
+.aboutgeri{
+     border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.aboutlinkin {
+    width:100%;
+    padding:7px;
+}
+.infocard{
+    margin-top: 50px;
+    float: right; 
+    width:100%;
+    background-color: #f7fdff;
+    border-radius: 10px;
+    -moz-box-shadow: 0px 3px 4px 4px rgba(0,0,0,0.1);
+-webkit-box-shadow: 0px 3px 4px 4px rgba(0,0,0,0.1);
+box-shadow: 0px 3px 4px 4px rgba(0,0,0,0.1);
+ 
+}
+.infocard h4{
+     padding-left: 8px;
+    margin-top:10px;
+}
+
+.infocard-mobile {
+    display:none;
+}
+
+img.vertaalvlag {
+    float: right;
+    margin-top:25px;
+    width:40px
+}
+
+.imagecontainer {
+  overflow: hidden;
+  width: 100%;
+  height: 350px;
+}
+
+}
+.imagecontainer img {
+    margin-top:-150px;
+  width: auto;
+  height: 2592px;
+}
+
+
+footer{
+     text-align: center;  
+    background-color: #edfbff;
+    padding:30px;
+}
+footer ul{
+    text-align: center;   
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+     color: black;
+}
+footer a{
+     color: black;
+}
+footer h3{
+     color: black;   
+}
+
+.footer-bureau {
+    font-weight:600;
+}
+.last-footer li{
+    text-align: center;
+    display: inline;
+    padding: 5px;
+}
+
+.infogeri { 
+    width: 65%;
+    float:left;
+    padding-left:0;
+}
+
+.open {
+    display:none;
+    
+}
+.btn-outline-klazema:hover {
+    background-color: #FE9A22;
+    border-color: #FE9A22;
+    cursor: pointer;
+    
+    
+}
+
+.kruimelpad {
+    margin-top: 7px;
+     font-weight: 200;
+    font-family: opensans-regular;
+    font-size: 1.1em;
+}
+
+.side {
+    color:#2d9eee; 
+   
+}
+.spec-foto {
+    height:50%;
+    width:100%;
+}
+
+.spec-item {
+    height:250px;
+    width:100%;
+    background-color:blue;
+    border-radius:25px;
+}
+
+.company{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contact-linkbutton {
+    width:100%;
+    padding:8px;
+}
+.company-container.col-md-12{
+    padding-left: 0; 
+    padding-right: 0; 
+    margin-top: 20px;
+}
+.companies-info{
+    background-color: #e2eef2;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    -webkit-box-shadow: 0px 0px 25px 1px rgba(135,133,135,1);
+    -moz-box-shadow: 0px 0px 25px 1px rgba(135,133,135,1);
+    box-shadow: 0px 0px 25px 1px rgba(135,133,135,1);
+    margin-top: -10px;
+    padding-bottom:15px;
+    padding-top: 10px;
+    
+}
+.companies-info h3{
+    margin-left: 9px;
+    margin-top: 10px;
+    padding-left:20px;
+}
+.companies-info p{
+     margin-top: -7px;
+    margin-left: 9px;
+    padding-left:20px;
+}
+
+h1.paragraph-kop {
+    margin-top:20px;
+}
+
+p.teksty {
+    padding-left:8px;
+}
+.logo-company{
+    width: 100%;
+    background: #dddddd;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    -webkit-box-shadow: 0px 0px 25px 1px rgba(135,133,135,1);
+    -moz-box-shadow: 0px 0px 25px 1px rgba(135,133,135,1);
+    box-shadow: 0px 0px 25px 1px rgba(135,133,135,1);
+}
+.logo-company img {
+    width:100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.smaller img {
+    padding:25px;
+}
+
+a.view-website-2{
+    border: 2px solid #2da2e0;
+    width: 80%;
+    padding: 3px;
+    padding-left:60px;
+    padding-right:60px;
+    margin-top: 15px;
+    color:  #2da2e0;
+    border-radius: 7px;
+    font-family: Montserrat-Regular;
+    text-decoration: none;
+}
+a.view-website-2:hover {
+    color: white;
+    background-color: #2da2e0;
+    transition: 0.3s;
+}
+
+.blog-artikel {
+    background-color: #f7fdff;
+    border-radius: 10px;
+    width:100%;
+    padding:35px;
+    box-shadow: 2px 2px 10px 1px #d8d8d8;
+    margin-bottom:30px;
+}
+
+a.view-website{
+    border: 2px solid #2da2e0;
+    width: 80%;
+    padding: 3px;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+    color:  #2da2e0;
+    border-radius: 7px;
+    font-family: Montserrat-Regular;
+    text-decoration: none;
+    display: block;
+}
+a.view-website:hover {
+    color: white;
+    background-color: #2da2e0;
+    transition: 0.3s;
+}
+
+.carousel-inner {
+    margin-top:-24px;
+}
+.logos{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
+    display: block;
+}
+.paragraph {
+    font-family: opensans-regular;
+    font-size: 1.1em;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.spec-item img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+paragraph-kop {
+    margin-bottom:50px;
+    margin-top:20px;
+}
+
+img.bedrijven-logo {
+    padding:200xp;
+}
+
+.big-card-contact {
+    display:none;
+}
+
+.google-map{
+    float: right;  
+    width: 70%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -moz-box-shadow: 0px 3px 4px 4px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 3px 4px 4px rgba(0,0,0,0.1);
+    box-shadow: 0px 3px 4px 4px rgba(0,0,0,0.1);
+}
+.google-map-mobile{ 
+      display:none;   
+    
+}
+
+  .text-contact-tablet {
+     display:none;     
+}
+
+.news-kop {
+    margin-bottom:20px;
+}
+
+label {
+    display:block;
+    margin-top:10px;
+    letter-spacing: 1px;
+}
+
+input, textarea {
+    width:100%;
+    border-radius:7px;
+    background-color:white;
+    border: 1px solid #797979;
+    padding: 8px;
+}
+
+textarea {
+    height:200px;
+}
+
+#verstuur{
+    width: 120px;
+    height: 35px;
+    font-family: montserrat-regular;
+    float: right;
+    border: 2px solid;
+    margin-top: 10px;
+    background-color: #fe9a22;
+    border-radius: 7px;
+    color: white;
+    line-height: 1;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+#verstuur:hover{
+       background: white;
+       color: #fe9a22; 
+       transition: 0.3s;
+}
+
+
+
+.map-info{
+    float: right;
+    height: auto;
+    width: 70%;
+    background: #f7fdff;
+    margin-top: 5px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    -moz-box-shadow: 0px 3px 4px 4px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 3px 4px 4px rgba(0,0,0,0.1);
+    box-shadow: 0px 3px 4px 4px rgba(0,0,0,0.1);
+}
+
+.map-card-info li{
+    list-style-type: none;
+    float:left;
+}
+
+.pop-up-mail{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    padding: 20px;
+    float: left;
+    display: none;
+    border-radius: 8px;
+    left: 0; 
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.pop-up-info{
+    background-color: white;
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    opacity: 2;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top:100px;
+}
+
+.close-mail{
+    width: 30%;
+    height: 40px;
+    background-color: #2da2e0;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.downer {
+    position:absolute;
+    right:0;
+    margin-right:20px;
+    z-index:300;
+    padding:10px;
+}
+.news {
+    padding-left:0;
+    padding-right:0;
+}
+@media only screen and (max-width : 991px) {
+
+    .blok {
+        display:none;
+    }
+    .vertaalvlag-mobile {
+        display:block;
+        margin: 0 auto;
+    }
+
+    .contact-mobile {
+        display:none;
+    }
+
+
+
+    .clicked {
+        background:#2d9eee;
+    
+    }
+    
+    .text-contact-tablet {
+        display:block;
+    }
+    
+    .big-card-contact{
+        display: block;
+        height: 245px;
+        width: 100%;
+        background-color: #f7fdff;
+        -moz-box-shadow: 0px 3px 4px 4px rgba(0,0,0,0.1);
+        -webkit-box-shadow: 0px 3px 4px 4px rgba(0,0,0,0.1);
+        box-shadow: 0px 3px 4px 4px rgba(0,0,0,0.1);
+        margin-bottom: 40px;
+    }
+    
+    
+    .big-card-contact-info p{
+        margin-left: 70px;
+        margin-top: 9px;
+    }
+    
+    .big-card-contact-info {
+        height:auto;
+    }
+    .big-card-contact-info li{
+        list-style-type: none;  
+        font-size: 110%;
+    }
+    
+    .big-card-contact-info ul {
+        float: left;
+        padding-left: 70px;
+        margin-top: -5px;
+            
+    }
+
+
+.closer.show {
+    display:block;
+    
+}
+
+    img.logo {
+        display:block;
+        float:none;
+        margin: 20px auto;
+    }
+
+   a.cta {
+        position: absolute;
+        top:0;
+        right:15px;
+        padding: 16px 20px;
+        line-height:0;
+        margin-top:30px;
+    }
+    
+  
+    a.sendmail{
+        width: 40%; 
+    }
+    .infocard {
+        float:right;
+    }
+    
+    .mini-card-contact{
+        display:none;
+    }
+  
+    .google-map-tablet {
+        width:100%;
+    }
+    
+    
+    
+}
+
+
+
+
+@media only screen and (max-width : 767px) {
+
+
+    a.view-website-2{ 
+         display:block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .infogeri {
+        width: 100%;
+        float:none;
+    }
+    
+    .contact-mobile {
+        display:block;
+    }
+    
+    .infocard {
+        display:none;
+    }
+    
+    .infocard-mobile{
+         width: 100%;
+        background-color: #f7fdff;
+        border-radius: 5px;
+        display: block;
+        padding: 10px;
+        -moz-box-shadow: 1px 3px 4px 4px rgba(0,0,0,0.1);
+        -webkit-box-shadow: 0px 3px 4px 4px rgba(0,0,0,0.1);
+        box-shadow: 0px 3px 4px 4px rgba(0,0,0,0.1);
+    } 
+    .infocard-mobile{
+         width: 100%;
+        padding-bottom: 20px;
+        margin-bottom:20px;
+    }
+    .infocard-mobile-text{
+         padding-left: 20px;   
+    }
+    
+    .contact-linkin {
+        position: relative;
+        margin: 0 auto;
+        display:block;
+    }
+   
+.closer.show {
+    display:block; 
+}
+     
+    
+a.cta {
+        display:none;
+}
+    
+    .contact-me {
+        height:120px;
+        padding:20px;
+    }
+    
+      .contact-me h3 {
+        margin-top: 20px;
+    }
+    
+.mail-btn {
+      color: #fe9a22;
+      display:inline;
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-top:23px;
+      margin-right:15px;
+      padding:10px;
+      border: 2px solid #fe9a22;
+      border-radius:10px;
+    }
+    
+img.logo {
+        width:160px;
+        margin-top:10px;
+    }
+
+
+    
+    .hamburger {
+        font-size: 25px;
+        margin-top:20px;
+    }
+    
+    .closer {
+        font-size: 25px;
+        margin-top:20px;
+    }
+    
+    .mail-btn {
+        font-size:20px;
+        margin-top:15px;
+    }
+    
+    
+    
+   
+    a.sendmail{
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    .spec-sub{
+    position: absolute;
+    top: 100px;
+    z-index: 999;
+    display: none;
+    right: 300px;
+    background-color: white;
+    padding: 10px 50px;
+    }
+
+    .spec-sub li{
+    line-height: normal !important;
+    height: 25px !important;
+     }
+
+    .clearboth{clear: both;}
+    
+    .big-card-contact{
+         height: 220px;   
+    }
+    .big-card-contact-info p{
+         margin-left: 60px; 
+    }
+    .big-card-contact-info ul{
+        padding-left: 60px;
+        margin: 0px;
+    }
+    
+    
+}
+
+
+/*
+.spec-sub{
+    position: absolute;
+    top: 100px;
+    z-index: 999;
+    display: none;
+    right: 300px;
+    background-color: white;
+    padding: 10px 50px;
+}
+
+.spec-sub li{
+    line-height: normal !important;
+    height: 25px !important;
+}
+
+.clearboth{clear: both;}
+*/
+
+@media only screen and (max-width : 600px) {
+
+    .hamburger {
+        margin-left:15px;
+    }
+    
+    ul.nav-links li a.cta {
+        display:none;
+    }
+    
+  .mail-btn {
+      color: #fe9a22;
+      display:inline;
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-top:23px;
+      margin-right:15px;
+      padding:10px;
+      border: 2px solid #fe9a22;
+      border-radius:10px;
+    }
+    
+    img.logo {
+        width:160px;
+        margin-top:10px;
+    }
+
+    
+    .hamburger {
+        font-size: 25px;
+        margin-top:20px;
+    }
+    
+    .mail-btn {
+        font-size:20px;
+        margin-top:15px;
+    }
+    
+    .contact-me{
+        height: 200px;
+        padding: 35px;
+        margin: auto;
+        position: relative;
+    }
+    a.sendmail{
+        width: 100%;
+    }
+    .contact-me h3{
+         padding-top: 0px;
+    } 
+    .google-map-tablet{
+         display: none;   
+    }
+    .big-card-contact-info{
+         margin-top: 20px; 
+    }
+    
+    .big-card-contact{
+         height: 325px;
+    }
+    .google-map-mobile{
+     width: 100%;
+     display: block;
+    }
+    .company{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .logos{
+        height: 100%;
+    }
